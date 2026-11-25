@@ -16,7 +16,7 @@ export function LandingPage() {
   const stats = [
     { value: "10+", label: "Cụm sân Hà Nội", description: "Bách Khoa, Cầu Giấy, Mỹ Đình, Đống Đa, Hà Đông" },
     { value: "15+", label: "Sân con hoạt động", description: "Đầy đủ loại sân 5v5, 7v7, 11v11" },
-    { value: "0%", label: "Trùng lịch giờ vàng", description: "Chặn vật lý bằng PostgreSQL btree_gist" },
+    { value: "0%", label: "Trùng lịch giờ vàng", description: "Kiểm soát xung đột khung giờ & giữ chỗ 4h tức thì" },
     { value: "4 giờ", label: "Giữ chỗ đặt cọc", description: "Tự động giải phóng slot quá hạn" },
   ];
 
